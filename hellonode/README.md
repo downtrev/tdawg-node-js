@@ -5,7 +5,7 @@ Update image:
   kubectl set image deployment/hello-node hello-node=hello-node:v2
   
 Run app:
-  minikube service hello-node
+  minikube service hellonode/hello-node
   
 Cleanup:
   kubectl delete service hello-node
