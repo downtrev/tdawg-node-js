@@ -1,3 +1,4 @@
+#comment, this is a comment
 Build image run: 
   docker build -t hello-node:v2 .
 
@@ -14,4 +15,4 @@ Cleanup:
 Stop minikube:
   minikube stop
   
-  #comment, this is a comment
+#comment, this is a comment
